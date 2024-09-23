@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tailwind CSS Page</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-500 p-4">
+        <div class="container mx-auto">
+            <h1 class="text-white text-2xl">My Simple Tailwind Page</h1>
+        </div>
+    </nav>
+    
+    <!-- Main Content Section -->
+    <div class="container mx-auto mt-10">
+        <!-- Heading -->
+        <h2 class="text-3xl font-bold text-center mb-8">Welcome to the Simple Page!</h2>
+        
+        <!-- Button Example -->
+        <div class="text-center mb-8">
+            <button class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">
+                Click Me
+            </button>
+        </div>
+
+        <!-- Card Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-4">Card Title 1</h3>
+                <p>This is some text inside the card. Tailwind CSS makes it easy to style your content!</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-4">Card Title 2</h3>
+                <p>Tailwind uses utility-first CSS, so you can directly apply classes to your HTML elements.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-4">Card Title 3</h3>
+                <p>With Tailwind, you can build custom designs quickly without writing any custom CSS.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 mt-10 p-4 text-center">
+        <p class="text-white">&copy; 2024 Simple Tailwind Page</p>
+    </footer>
+
+</body>
+</html>
